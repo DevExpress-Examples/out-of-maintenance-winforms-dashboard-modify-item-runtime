@@ -6,21 +6,17 @@ Imports DevExpress.UserSkins
 Imports DevExpress.Skins
 
 Namespace DashboardItemRuntimeExample
-    Friend NotInheritable Class Program
+	Friend Module Program
+		''' <summary>
+		''' The main entry point for the application.
+		''' </summary>
+		<STAThread>
+		Sub Main()
+			Application.EnableVisualStyles()
+			Application.SetCompatibleTextRenderingDefault(False)
 
-        Private Sub New()
-        End Sub
-
-        ''' <summary>
-        ''' The main entry point for the application.
-        ''' </summary>
-        <STAThread> _
-        Shared Sub Main()
-            Application.EnableVisualStyles()
-            Application.SetCompatibleTextRenderingDefault(False)
-
-            BonusSkins.Register()
-            Application.Run(New ViewerForm1())
-        End Sub
-    End Class
+			BonusSkins.Register()
+			Application.Run(New ViewerForm1())
+		End Sub
+	End Module
 End Namespace
