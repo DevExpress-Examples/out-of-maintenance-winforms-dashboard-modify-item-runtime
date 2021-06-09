@@ -1,6 +1,6 @@
 *Files to look at*:
 
-* [Form1.cs](./CS/DashboardItemRuntimeExample/Form1.cs) (VB: [Form1.vb](./VB/DashboardItemRuntimeExample/Form1.vb))
+* [Form1.cs](./CS/DashboardItemRuntimeExample/ViewerForm1.cs) (VB: [Form1.vb](./VB/DashboardItemRuntimeExample/ViewerForm1.vb))
 
 # How to Modify a Dashboard Item at Runtime
 
