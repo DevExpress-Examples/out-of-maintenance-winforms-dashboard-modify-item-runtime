@@ -3,13 +3,14 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830537)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-*Files to look at*:
-
-* [Form1.cs](./CS/DashboardItemRuntimeExample/ViewerForm1.cs) (VB: [Form1.vb](./VB/DashboardItemRuntimeExample/ViewerForm1.vb))
 
 # Dashboard for WinForms - How to change the dashboard item's data source field at runtime
 
 This example demonstrates how to change the data source field specified for the Chart's argument in the [Dashboard Viewer](https://docs.devexpress.com/Dashboard/117122/winforms-dashboard/winforms-viewer).
+
+## Files to Look At
+
+* [Form1.cs](./CS/DashboardItemRuntimeExample/ViewerForm1.cs) (VB: [Form1.vb](./VB/DashboardItemRuntimeExample/ViewerForm1.vb))
 
 To get access to a dashboard loaded in the Dashboard Viewer control, the [DashboardViewer.Dashboard](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.Dashboard) property is used.
 
